@@ -8,7 +8,7 @@ while True:
     # generate the random number
     BEGIN = random.randint(0, 4)
     random_number = random.randint(BEGIN, RANGE_TOP)
-
+    
     # give the user a certain amount of guesses
     #for i in reversed(range(N0_OF_GUESSES)):
     for i in range(N0_OF_GUESSES)[::-1]:
